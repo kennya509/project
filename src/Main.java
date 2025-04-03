@@ -6,7 +6,7 @@ public class Main {
         TodoRepository todoRepo = new TodoRepository();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Програма запущена. У вас вже є 1 тестове завдання");
+        System.out.println("Програма запущена. У вас вже є збережені завдання.");
 
         boolean running = true;
         while (running) {
